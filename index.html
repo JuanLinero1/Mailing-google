@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <img class="bg-Image" src="./images/Vector.png" alt="Yello Corner Circle"">
+        
+        <section class="info">
+            <h1>User research made easy and fun.</h1>
+            <h3>Start testing in minutes !</h3>
+            <h5>Already have an account? <a href="##">Log in</a></h5>
+            <div class="logos">
+                <img src="./images/Outline/Brands/Instagram.png" alt="">
+                <img src="./images/Outline/Brands/Twitter.png" alt="">
+                <img src="./images/Outline/Brands/Google.png" alt="">
+            </div>
+        </section>
+
+        <section class="input">
+            <button class="signUp">
+                <img src="./images/Google Logos By hrhasnai (1).png" alt="Google Logo">
+                <h2>Sign up with google</h2>
+            </button>
+            <div class="line">
+                <div class="innerText">or</div>
+            </div>
+            <form action="result.html" method="get"> <!-- NO TENGO UN SERVIDOR PARA USAR POST-->
+                <div class="name">
+                    <div>
+                        <label for="firstName" required>First Name</label>
+                        <input name="firstName" type="text">
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input name="lastName" type="text">
+                    </div>
+                </div>
+                <div>
+                    <label for="email" required>Email</label>
+                    <input type="email" name="email">
+                </div>
+                
+                <div>
+                    <label for="password" required  required minlength="10">Password</label>
+                    <input type="password" name="password">
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="accept" name="checkbox">
+                    <p for="checkbox">I agree to the <a target="_blank" href="#"> Terms of Service </a> and <a target="_blank" href="#">Privacy Notice</a></p>
+                </div>
+                <button>Sign me up! </button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

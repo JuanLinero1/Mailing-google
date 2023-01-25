@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+}
+
+.bg-Image{
+    position: absolute;
+    z-index: -10000;
+    width: 33%;
+    top: 0;
+    left: 0;
+}
+
+.info{
+    width: 350px;
+}
+.info h1{
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 4.5rem;
+}
+.info h3{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 3rem 0;
+}
+.info h5{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.info a{
+    color: #0047FF;
+}
+.info .logos img{
+    width: 2rem;
+    margin: 50px 0 0 0; 
+}
+
+
+/* INPUTS */
+.input, .input form{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.input form div{
+    position: relative
+}
+.input form div label{
+    position: absolute;
+    box-sizing: content-box;
+    padding: 3px;
+    left: 20px;
+    top: -8px;
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+.input .line{
+    width: 100%;    
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #868091;
+    position: relative;
+}
+
+.input .line .innerText{
+    position: absolute;
+    top: -.8rem;
+    background: white;
+    box-sizing: content-box;
+    padding: 0 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.input .signUp{
+    display: flex;
+    align-items: center;
+    border: 2px solid #868091;
+    gap: 90px;
+    border-radius: 8px;
+    width: 100%;
+    height: 3.4rem;
+    padding: 0 2.5rem;
+    background: white;
+    cursor: pointer;
+}
+.input .signUp h2{
+    font-weight: 300;
+}
+.input .signUp img{ 
+    width: 2rem;
+}
+
+.input form .name{
+    display: flex;
+    gap: 30px;
+}
+.input form .name input{
+}
+.input form div{ 
+    width: 100%;
+}
+.input form input{
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* .check{
+    background: black;
+    display: flex;
+    justify-items: center;
+    color: white;
+}
+.check p, .check p{
+    display: inline-block;
+} */
+/* NO SE COMO HACER ESTE */
+
+
+
+form button{ 
+    width: 100%;
+    background-color: #FFE061;
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.check #accept{
+    width: 1.25rem;
+}
